@@ -1,0 +1,30 @@
+@font-face {
+font-family: "SpencersTowerMONO";
+src: url("img/SpencersTowerMONO.ttf");
+}
+
+html, body {
+	/*background-color: rgb(186, 212, 255);*/
+	background-color: rgb(176, 202, 245);
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+	overflow-y:hidden;
+	position:relative;
+	overscroll-behavior:none;
+
+	font-family:"SpencersTowerMONO";
+	font-size:10pt;
+}
+#sliders{
+	float:left;
+	width:25%;
+}
+canvas{
+	float:left;
+}
+button,select{
+	font-family:"SpencersTowerMONO";
+	font-size:15pt;
+}
+*{ margin: 0; padding: 0; }
